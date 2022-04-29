@@ -7,7 +7,7 @@ $bg-warning: orange;
 $redes: ( 
         twitter: #55acee,
         facebook:  #3a5795,
-        Youtube: #C25E30
+        instagram: #C25E30
 ); 
 
 
@@ -23,8 +23,8 @@ $redes: (
 }
 
 .icon {
-    width: 180px;
-    height: 140px;
+    width: 160px;
+    height: 120px;
 }
 
 // $color: azul;
@@ -68,4 +68,13 @@ $redes: (
         background-color: $color;
     }
  }
-  
+
+.mas {
+  &:hover{
+    font-weight: bold; 
+    background-color: rgb(161, 160, 247);  
+}
+&:active {
+    color: rgb(161, 1, 95);
+}
+} 
