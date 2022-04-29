@@ -1,0 +1,27 @@
+footer {
+        margin-top: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+
+            ul {
+            list-style: none;
+            }
+  
+            li { display:block;
+            
+                a { color: rgb(16, 15, 8);
+                    text-transform: capitalize;
+
+                    &:hover{
+                        font-weight: bold; 
+                        background-color: rgb(25, 242, 25);     
+                    }
+                    &:active {
+                        color: rgb(160, 136, 95);
+                    }
+                }
+            }
+   
+}

@@ -1,0 +1,56 @@
+$primary: rgb(46, 81, 84);
+$bg-success: green;
+$bg-error: red;
+$bg-warning: orange;
+
+
+
+
+@import "bootstrap";
+
+@import "footer";
+
+.nav {
+    background-color: $primary;
+}
+
+.icon {
+    width: 180px;
+    height: 140px;
+}
+
+// $color: azul;
+// 
+// p {
+    // @if ($color == verde){
+        // color: green;
+// 
+    // } @else {
+        // color: blue
+    // }
+// }
+
+
+// extend
+%message {
+  border-radius: 2px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.message-success {
+  @extend %message;
+  background-color: $bg-success;
+}
+
+.message-error {
+    @extend %message;
+    background-color: $bg-error;
+  }
+  
+  .message-warning {
+    @extend %message;
+    background-color: $bg-warning;
+  }
+  
